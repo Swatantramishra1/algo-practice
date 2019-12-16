@@ -42,4 +42,4 @@ function isAllIntegerContains(str) {
   return true;
 }
 
-console.log(isAllIntegerContains("Geeks12345for708"));
+console.log(isAllIntegerContains("Geekxs12345for708"));

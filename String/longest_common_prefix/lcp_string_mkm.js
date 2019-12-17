@@ -39,7 +39,7 @@ function lcp(arr) {
     if (isPresent) {
       lcp = lcp + arr[0].slice(low, mid);
 
-      low = mid + 1;
+      low = mid;
     } else {
       high = mid - 1;
     }
